@@ -1,0 +1,21 @@
+
+%btn{
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+
+}
+
+
+.btn-primary{
+    @extend %btn;
+    //background-color: lighten($primary-colors,10%);
+    background-color:$primary-colors ;
+
+}
+.btn-secondery{
+    @extend %btn;
+    background-color:$secondery-color;
+
+}
